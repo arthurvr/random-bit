@@ -1,0 +1,38 @@
+{
+  "name": "random-bit",
+  "version": "0.0.0",
+  "description": "Get a random bit (0 or 1)",
+  "license": "MIT",
+  "repository": "arthurvr/random-bit",
+  "author": {
+    "name": "Arthur Verschaeve",
+    "email": "contact@arthurverschaeve.be",
+    "url": "arthurverschaeve.be"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "bit",
+    "binary",
+    "0",
+    "1",
+    "digit",
+    "number",
+    "random",
+    "choice",
+    "get"
+  ],
+  "dependencies": {
+    "random-boolean": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
