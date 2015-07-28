@@ -30,7 +30,6 @@
     "get"
   ],
   "dependencies": {
-    "random-boolean": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "*"
