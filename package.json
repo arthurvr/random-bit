@@ -29,8 +29,6 @@
     "choice",
     "get"
   ],
-  "dependencies": {
-  },
   "devDependencies": {
     "mocha": "*"
   }
