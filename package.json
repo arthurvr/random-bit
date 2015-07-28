@@ -1,6 +1,6 @@
 {
   "name": "random-bit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a random bit (0 or 1)",
   "license": "MIT",
   "repository": "arthurvr/random-bit",
