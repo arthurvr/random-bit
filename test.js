@@ -1,8 +1,10 @@
 'use strict';
-var assert = require('assert');
+var test = require('ava');
 var randomBit = require('./');
 
-it('should return a random bit', function () {
+test('should return a random bit', function (t) {
 	var bit = randomBit();
-	assert(bit === 0 || bit === 1);
+	t.true(bit === 0 || bit === 1);
+
+	t.end();
 });
