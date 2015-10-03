@@ -1,8 +1,7 @@
-'use strict';
-var test = require('ava');
-var randomBit = require('./');
+import test from 'ava';
+import randomBit from './';
 
-test('should return a random bit', function (t) {
+test('should return a random bit', t => {
 	var bit = randomBit();
 	t.true(bit === 0 || bit === 1);
 
