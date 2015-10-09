@@ -13,7 +13,7 @@ $ npm install --save random-bit
 ## Usage
 
 ```js
-var randomBit = require('random-bit');
+const randomBit = require('random-bit');
 
 randomBit();
 //=> 1
